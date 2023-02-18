@@ -1286,6 +1286,7 @@ int main()
             helpsettings();
             system("Pause");
         }
+        
         refreshobjectfordot(gameboard, row, column);
     }
 }
