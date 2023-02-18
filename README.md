@@ -6,7 +6,8 @@ Please introduce the game here.
 
 You may add one signature screenshot of your program here or above the title. Check out [this tutorial](https://www.digitalocean.com/community/tutorials/markdown-markdown-images) to learn how to do it.
 
-Please provide the YouTube link to your [Video Demo](https://youtu.be/S1kGOfGWQC8).
+Please provide the YouTube link to your [Video Demo](https://youtu.be/S1kGOfGWQC8)(part 1).
+Please provide the YouTube link to your [Video Demo]( )(part 2).
 
 ## Compilation Instructions
 
