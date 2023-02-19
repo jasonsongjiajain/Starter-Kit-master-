@@ -43,7 +43,7 @@ For example:
 2. Default Settings
 3. Gamechange settings 
 
-### Brett Yap V-ron 
+### Brett Yap V-Ron 
 
 1. Alien movement
 2. Display Character

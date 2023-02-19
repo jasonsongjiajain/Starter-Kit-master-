@@ -35,7 +35,7 @@ Please DO NOT change the Progress Log below. Leave it as it is.
 Please replace the following with your group members' names. 
 
 - Song Jia Jian 
-- Brett Yap V-ron
+- Brett Yap V-Ron
 
 
 

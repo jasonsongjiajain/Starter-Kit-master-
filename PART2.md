@@ -50,7 +50,7 @@ For example:
 7. Additional features 1
 
 
-### Brett Yap V-ron
+### Brett Yap V-Ron
 
 1. Quit
 2. Display Character info
