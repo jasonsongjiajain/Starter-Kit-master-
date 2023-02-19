@@ -1081,7 +1081,7 @@ int main()
 {
     int row = 5, column = 9, zcount = 1;
     bool quit = false;
-    int damage = 20;
+    int damage = 10;
     string difficult = "easy";
     srand(time(NULL));
 
