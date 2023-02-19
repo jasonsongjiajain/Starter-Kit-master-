@@ -66,7 +66,6 @@ public:
     int alienlife;
     int alienattack;
     bool hasAttacked = false;
-    int alienshield = 0;
     void init()
     {
         alienlife = 100;
@@ -1078,18 +1077,6 @@ void refreshobjectfordot(string **gameBoard, int &row, int &column)
     return;
 }
 
-bool isAlienAttackEffective(alien &alien)
-{
-    if (alien.alienshield > 0)
-    { // alien has shield
-        cout << "The alien attack is ineffective" << endl;
-        return false;
-    }
-    else
-    { // alien doesn't have shield
-        return true;
-    }
-}
 
 int main()
 {
