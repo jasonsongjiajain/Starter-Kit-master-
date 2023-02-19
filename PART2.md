@@ -20,6 +20,8 @@ List all the features completed.
 8. Function of all game objects(including additional features)
 9. Game controls
 10. Additional features
+11. save and load
+12. quit and exit
 
 ### To Do
 

@@ -243,12 +243,12 @@ int **zombiearray(int &zcount)
 void generateobject(string **gameboard, int &row, int &column)
 {
 
-    string objects[11] = {" ", " ", " ", "^", "v", "<", ">","r", "h", "p", "$"}; // additional feature shield which will help to defend the attack once
+    string objects[10] = {" ", " ", " ", "^", "v", "<", ">", "h", "p", "$"}; // additional feature shield which will help to defend the attack once
     for (int x = 0; x < row; x++)
     {
         for (int y = 0; y < column; y++)
         {
-            gameboard[x][y] = objects[rand() % 11];
+            gameboard[x][y] = objects[rand() % 10];
         }
     }
 }
@@ -1077,7 +1077,6 @@ void refreshobjectfordot(string **gameBoard, int &row, int &column)
     return;
 }
 
-
 int main()
 {
     int row = 5, column = 9, zcount = 1;
@@ -1237,7 +1236,7 @@ int main()
                     cout << endl;
                     if (Myalien.alienlife <= 0)
                     {
-                        cout << "You haven been defeated by zombie! You lost the game!\n";
+                        cout << "You have been defeated by zombie! You lost the game!\n";
                         cout << endl;
                         system("pause");
                         quit = true;
@@ -1273,7 +1272,6 @@ int main()
             helpsettings();
             system("Pause");
         }
-        
         refreshobjectfordot(gameboard, row, column);
     }
 }
